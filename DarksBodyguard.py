@@ -57,7 +57,7 @@ async def on_message(message):
     if message.content.startswith('!!rob @Đark#6774'):
         await client.send_message(message.channel,':eyes: <@%s>!'  %(message.author.id))
     if message.content == '!serverinvite':
-        await client.send_message(message.channel,'https://discord.gg/3p7duB9')
+        await client.send_message(message.channel,'https://discord.gg/hACbxTS')
     if message.content == '!help':
         em = discord.Embed(description='')
         em.set_image(url='https://cdn.discordapp.com/attachments/496040752338698268/501340889155764224/help.PNG')
@@ -73,6 +73,6 @@ async def on_message(message):
     if ('Nigger') in message.content:
        await client.delete_message(message)
     if message.content.startswith('!8-ball'):
-        randomlist = ["It is decidedly so","Without a doubt","Yes, definitely","You may rely on it","As I see it, yes","Most likely","Outlook good","Yes","Perhaps","Signs point to yes","Reply hazy, try again","Ask again later","Better not tell you now","Cannot predict now","Concentrate and ask again","Don't count on it","My reply is no.","My sources say no","Error Random response ID= 723 not found",]
+        randomlist = ["It is decidedly so","Without a doubt","Yes, definitely","You may rely on it","As I see it, yes","Most likely","Outlook good","Yes","Perhaps","Signs point to yes","Reply hazy, try again","Ask again later","Better not tell you now","Cannot predict now","Concentrate and ask again","Don't count on it","My reply is no.","My sources say no","Error Random response ID= 723 not found","It is certain","maybe :rikoshrug:",]
         await client.send_message(message.channel,(random.choice(randomlist)))
 client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
