@@ -51,7 +51,7 @@ async def on_message(message):
     if message.content == '!serverinvite':
         await client.send_message(message.channel,'https://discord.gg/3p7duB9')
     if message.content == '!help':
-        em = discord.Embed(description='Here you go <@%s> p.s this is a picture click on it to see the commands')
+        em = discord.Embed(description='Here you go.  p.s this is a picture click on it to see the commands')
         em.set_image(url='https://cdn.discordapp.com/attachments/500792101194301453/502549984613367839/help.PNG')
         await client.send_message(message.channel, embed=em)
     if message.content.startswith('!1-100rng'):
@@ -64,5 +64,5 @@ async def on_message(message):
         randomlist = ["It is decidedly so","Without a doubt","Yes, definitely","You may rely on it","As I see it, yes","Most likely","Outlook good","Yes","Perhaps","Signs point to yes","Reply hazy, try again","Ask again later","Better not tell you now","Cannot predict now","Concentrate and ask again","Don't count on it","My reply is no.","My sources say no","Error Random response ID= 723 not found",]
         await client.send_message(message.channel,(random.choice(randomlist)))
     if message.content == '!work':
-        await client.send_message(message.channel,'Yes i am working, there schould be no problems all commands seem to be working if im wrong message Đark')  %(message.author.id))
+        await client.send_message(message.channel,'Yes i am working, there schould be no problems all commands seem to be working if im wrong message Đark')
 client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
