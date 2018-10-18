@@ -65,4 +65,4 @@ async def on_message(message):
         await client.send_message(message.channel,(random.choice(randomlist)))
     if message.content == '!work':
         await client.send_message(message.channel,'Yes i am working, there schould be no problems all commands seem to be working if im wrong message Đark')
-    client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
+client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
