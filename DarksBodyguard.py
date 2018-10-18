@@ -32,12 +32,20 @@ async def on_message(message):
         await client.send_message(message.channel,(random.choice(randomlist)))
     if message.content.startswith('!noticemedaddy'):
         await client.send_message(message.channel,'Daddy has noticed you <@%s>!'  %(message.author.id))
+    if ('cunt') in message.content:
+       await client.delete_message(message)
+    if ('freeshop') in message.content:
+       await client.delete_message(message)
+    if ('free shop') in message.content:
+       await client.delete_message(message)
     if message.content == '!creator':
         em = discord.Embed(description='')
         em.set_image(url='https://cdn.discordapp.com/attachments/496040752338698268/501342143126962187/Screenshot_2018-10-15-12-33-55-1-1-1-1.png')
         await client.send_message(message.channel, embed=em)
     if message.content.startswith('!!rob 356200510916657172'):
         await client.send_message(message.channel,':eyes: <@%s>!'  %(message.author.id))
+    if ('kys') in message.content:
+       await client.delete_message(message)
     if message.content == '!kommo-o':
         em = discord.Embed(description='')
         em.set_image(url='https://cdn.discordapp.com/attachments/353994821247041536/438735309208027136/kommo-o.png')
@@ -49,7 +57,7 @@ async def on_message(message):
     if message.content.startswith('!!rob @Đark#6774'):
         await client.send_message(message.channel,':eyes: <@%s>!'  %(message.author.id))
     if message.content == '!serverinvite':
-        await client.send_message(message.channel,'https://discord.gg/hACbxTS')
+        await client.send_message(message.channel,'https://discord.gg/3p7duB9')
     if message.content == '!help':
         em = discord.Embed(description='')
         em.set_image(url='https://cdn.discordapp.com/attachments/496040752338698268/501340889155764224/help.PNG')
@@ -60,7 +68,11 @@ async def on_message(message):
     if message.content.startswith('!raptor'):
         randomlist = ["https://cdn.discordapp.com/attachments/496040752338698268/501121408102039565/raptorhot.PNG","https://cdn.discordapp.com/attachments/496040752338698268/501121569796521984/raptorhot3.PNG",]
         await client.send_message(message.channel,(random.choice(randomlist)))
+    if ('nigger') in message.content:
+       await client.delete_message(message)
+    if ('Nigger') in message.content:
+       await client.delete_message(message)
     if message.content.startswith('!8-ball'):
-        randomlist = ["It is decidedly so","Without a doubt","Yes, definitely","You may rely on it","As I see it, yes","Most likely","Outlook good","Yes","Perhaps","Signs point to yes","Reply hazy, try again","Ask again later","Better not tell you now","Cannot predict now","Concentrate and ask again","Don't count on it","My reply is no.","My sources say no","Error Random response ID= 723 not found","It is certain","maybe :rikoshrug:",]
+        randomlist = ["It is decidedly so","Without a doubt","Yes, definitely","You may rely on it","As I see it, yes","Most likely","Outlook good","Yes","Perhaps","Signs point to yes","Reply hazy, try again","Ask again later","Better not tell you now","Cannot predict now","Concentrate and ask again","Don't count on it","My reply is no.","My sources say no","Error Random response ID= 723 not found",]
         await client.send_message(message.channel,(random.choice(randomlist)))
-        client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
+client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
