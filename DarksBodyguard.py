@@ -63,11 +63,4 @@ async def on_message(message):
     if message.content.startswith('!8-ball'):
         randomlist = ["It is decidedly so","Without a doubt","Yes, definitely","You may rely on it","As I see it, yes","Most likely","Outlook good","Yes","Perhaps","Signs point to yes","Reply hazy, try again","Ask again later","Better not tell you now","Cannot predict now","Concentrate and ask again","Don't count on it","My reply is no.","My sources say no","Error Random response ID= 723 not found","It is certain","maybe :rikoshrug:",]
         await client.send_message(message.channel,(random.choice(randomlist)))
-        import typing
-        @bot.command('!')
-        async def ban(ctx, members: commands.Greedy[discord.Member],
-                   delete_days: typing.Optional[int] = 0, *,
-                   reason: str):
-        for member in members:
-        await member.ban(delete_message_days=delete_days, reason=reason)
         client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
