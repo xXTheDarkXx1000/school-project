@@ -34,7 +34,7 @@ async def on_message(message):
         await client.send_message(message.channel,'Daddy has noticed you <@%s>!'  %(message.author.id))
     if message.content == '!creator':
         em = discord.Embed(description='')
-        em.set_image(url='https://cdn.discordapp.com/attachments/496040752338698268/501342143126962187/Screenshot_2018-10-15-12-33-55-1-1-1-1.png')
+        em.set_image(url='https://cdn.discordapp.com/attachments/501374970627096576/514180785641881610/Screenshot_2018-11-19-21-49-55-1-1-1-1.png')
         await client.send_message(message.channel, embed=em)
     if message.content.startswith('!!rob 356200510916657172'):
         await client.send_message(message.channel,':eyes: <@%s>!'  %(message.author.id))
@@ -42,11 +42,11 @@ async def on_message(message):
         em = discord.Embed(description='')
         em.set_image(url='https://cdn.discordapp.com/attachments/353994821247041536/438735309208027136/kommo-o.png')
         await client.send_message(message.channel, embed=em)
-    if message.content.startswith('!!rob Đark'):
+    if message.content.startswith('!!rob Dark'):
         await client.send_message(message.channel,':eyes: <@%s>!'  %(message.author.id))
-    if message.content.startswith('!!rob Đark#6774'):
+    if message.content.startswith('!!rob Dark#3462'):
         await client.send_message(message.channel,':eyes: <@%s>!'  %(message.author.id))
-    if message.content.startswith('!!rob @Đark#6774'):
+    if message.content.startswith('!!rob @Dark#3462'):
         await client.send_message(message.channel,':eyes: <@%s>!'  %(message.author.id))
     if message.content == '!serverinvite':
         await client.send_message(message.channel,'https://discord.gg/3p7duB9')
