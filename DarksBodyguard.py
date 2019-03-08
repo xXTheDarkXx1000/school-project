@@ -51,7 +51,7 @@ async def on_message(message):
     if message.content == '!serverinvite':
         await client.send_message(message.channel,'https://discord.gg/3p7duB9')
     if message.content == '!help':
-        em = discord.Embed(description='Here you go   p.s this is a picture click on it to see the commands')
+        em = discord.Embed(description='Here you go   p.s this is a picture click on it to see the commands (also DARK add !sagiri')
         em.set_image(url='https://cdn.discordapp.com/attachments/500792101194301453/502549984613367839/help.PNG')
         await client.send_message(message.channel, embed=em)
     if message.content.startswith('!1-100rng'):
@@ -66,5 +66,5 @@ async def on_message(message):
     if message.content == '!work':
         await client.send_message(message.channel,'100% operational')
     if message.content == '!sagiri':
-        await client.send_message(message.channel,'shit you found this command GG! If dark did this then fuck you')
+        await client.send_message(message.channel,'https://cdn.discordapp.com/emojis/510523405628604428.png?v=1')
 client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
