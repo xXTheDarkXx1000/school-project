@@ -66,5 +66,5 @@ async def on_message(message):
     if message.content == '!work':
         await client.send_message(message.channel,'100% operational')
 client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
-        if message.content == '!sagiri':
+    if message.content == '!sagiri':
         await client.send_message(message.channel,'shit you found this command GG! If dark did this then fuck you')
