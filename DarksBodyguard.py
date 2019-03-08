@@ -61,7 +61,7 @@ async def on_message(message):
         randomlist = ["https://cdn.discordapp.com/attachments/496040752338698268/501121408102039565/raptorhot.PNG","https://cdn.discordapp.com/attachments/496040752338698268/501121569796521984/raptorhot3.PNG",]
         await client.send_message(message.channel,(random.choice(randomlist)))
     if message.content.startswith('!8-ball'):
-        randomlist = ["Shut fuck up"]
+        randomlist = ["It is decidedly so","Without a doubt","Yes, definitely","You may rely on it","As I see it, yes","Most likely","Outlook good","Yes","Perhaps","Signs point to yes","Reply hazy, try again","Ask again later","Better not tell you now","Cannot predict now","Concentrate and ask again","Don't count on it","My reply is no.","By reading the bible i've found the answer... NO FOR FUCK SAKE","By reading the bible i've found the answer... Yes","Thanos says no","Thanos says yes","riidefi doesn't approve so i say no","Shut Fuck up!",]
         await client.send_message(message.channel,(random.choice(randomlist)))
     if message.content == '!work':
         await client.send_message(message.channel,'100% operational')
