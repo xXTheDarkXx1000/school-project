@@ -61,31 +61,4 @@ async def on_message(message):
         await client.send_message(message.channel,(random.choice(randomlist)))
     if message.content == '!sagiri':
         await client.send_message(message.channel,'https://cdn.discordapp.com/emojis/510523405628604428.png?v=1')
-    if message.content == '!help':
-        await client.send_message(message.channel,'Commands:
-(May not be always up-to-date)
-1. ``!ping``
-bot replies with pong
-2. ``!kevin``
-Kevin says that he's been exposed
-3. ``!raptor``
-Raptor says hot
-4. ``!1-10rng``
-The bot replies with a number from 1 to 10
-5. ``!1-100rng``
-The bot replies with a number from 1 to 100
-6. ``!noticemedaddy``
-you'll be noticed by the bot
-7. ``!creator``
-shows the creator of the bot
-8. ``!kommo-o``
-Wesley
-9. ``!serverinvite``
-you get the invite link to this server
-10. ``!8-ball`` 
-say something "example" 8-ball do you like me? then send the message and the bit will reply with a random answer
-11. ``!sagiri``
-an annoying creature will pop up
-12. ``!help``
-this will show you the command list')
 client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
