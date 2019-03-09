@@ -50,10 +50,6 @@ async def on_message(message):
         await client.send_message(message.channel,':eyes: <@%s>!'  %(message.author.id))
     if message.content == '!serverinvite':
         await client.send_message(message.channel,'https://discord.gg/3p7duB9')
-    if message.content == '!help':
-        em = discord.Embed(description='Here you go   p.s this is a picture click on it to see the commands (also DARK add !sagiri')
-        em.set_image(url='https://cdn.discordapp.com/attachments/500792101194301453/502549984613367839/help.PNG')
-        await client.send_message(message.channel, embed=em)
     if message.content.startswith('!1-100rng'):
         randomlist = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66","67","68","69","70","71","72","73","74","75","76","77","78","79","80","81","82","83","84","85","86","87","88","89","90","91","92","93","94","95","96","97","98","99","100",]
         await client.send_message(message.channel,(random.choice(randomlist)))
@@ -65,4 +61,31 @@ async def on_message(message):
         await client.send_message(message.channel,(random.choice(randomlist)))
     if message.content == '!sagiri':
         await client.send_message(message.channel,'https://cdn.discordapp.com/emojis/510523405628604428.png?v=1')
+    if message.content == '!help':
+        await client.send_message(message.channel,'Commands:
+(May not be always up-to-date)
+1. ``!ping``
+bot replies with pong
+2. ``!kevin``
+Kevin says that he's been exposed
+3. ``!raptor``
+Raptor says hot
+4. ``!1-10rng``
+The bot replies with a number from 1 to 10
+5. ``!1-100rng``
+The bot replies with a number from 1 to 100
+6. ``!noticemedaddy``
+you'll be noticed by the bot
+7. ``!creator``
+shows the creator of the bot
+8. ``!kommo-o``
+Wesley
+9. ``!serverinvite``
+you get the invite link to this server
+10. ``!8-ball`` 
+say something "example" 8-ball do you like me? then send the message and the bit will reply with a random answer
+11. ``!sagiri``
+an annoying creature will pop up
+12. ``!help``
+this will show you the command list')
 client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
