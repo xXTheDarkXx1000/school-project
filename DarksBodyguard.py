@@ -63,8 +63,6 @@ async def on_message(message):
     if message.content.startswith('!8-ball'):
         randomlist = ["It is decidedly so","Without a doubt","Yes, definitely","You may rely on it","As I see it, yes","Most likely","Outlook good","Yes","Perhaps","Signs point to yes","Reply hazy, try again","Ask again later","Better not tell you now","Cannot predict now","Concentrate and ask again","Don't count on it","My reply is no.","By reading the bible i've found the answer... NO FOR FUCK SAKE","By reading the bible i've found the answer... Yes","Thanos says no","Thanos says yes","riidefi doesn't approve so i say no","Shut Fuck up!",]
         await client.send_message(message.channel,(random.choice(randomlist)))
-    if message.content == '!work':
-        await client.send_message(message.channel,'100% operational')
     if message.content == '!sagiri':
         await client.send_message(message.channel,'https://cdn.discordapp.com/emojis/510523405628604428.png?v=1')
 client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
