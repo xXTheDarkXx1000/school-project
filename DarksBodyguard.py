@@ -32,10 +32,8 @@ async def on_message(message):
         await client.send_message(message.channel,(random.choice(randomlist)))
     if message.content.startswith('!noticemedaddy'):
         await client.send_message(message.channel,'Daddy has noticed you <@%s>!'  %(message.author.id))
-    if message.content == '!creator':
-        em = discord.Embed(description='')
-        em.set_image(url='https://cdn.discordapp.com/attachments/501374970627096576/514180785641881610/Screenshot_2018-11-19-21-49-55-1-1-1-1.png')
-        await client.send_message(message.channel, embed=em)
+    if message.content == '!sagiri':
+        await client.send_message(message.channel,'Dark#3462 is my creator')
     if message.content.startswith('!!rob 356200510916657172'):
         await client.send_message(message.channel,':eyes: <@%s>!'  %(message.author.id))
     if message.content == '!kommo-o':
