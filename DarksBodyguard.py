@@ -33,7 +33,7 @@ async def on_message(message):
     if message.content.startswith('!noticemedaddy'):
         await client.send_message(message.channel,'Daddy has noticed you <@%s>!'  %(message.author.id))
     if message.content == '!creator':
-        await client.send_message(message.channel,'Dark#346 is my creator')
+        await client.send_message(message.channel,'Dark#3462 is my creator')
     if message.content.startswith('!!rob 356200510916657172'):
         await client.send_message(message.channel,':eyes: <@%s>!'  %(message.author.id))
     if message.content == '!kommo-o':
@@ -61,4 +61,6 @@ async def on_message(message):
         await client.send_message(message.channel,'https://cdn.discordapp.com/emojis/510523405628604428.png?v=1')
     if message.content == '!help':
         await client.send_message(message.channel,'https://cdn.discordapp.com/attachments/500792101194301453/554080105404825621/commandsfea.PNG')
+    if message.content == '!gay':
+        await client.send_message(message.channel,'Dark is not gay')
 client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
