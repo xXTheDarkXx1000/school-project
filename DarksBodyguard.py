@@ -15,7 +15,7 @@ Clientdiscord = discord.Client()
 @client.event
 async def on_member_join(member):
     print('Recognised that a member called ' + member.name + ' joined')
-    await client.send_message(member, 'Welcome to Darks Discord Server im his bodyguard and ill keep an :eyes: on @everyone')
+    await client.send_message(member, 'Welcome to Nikos Discord Server im Darks bodyguard (the previous Owner) I will keep an :eyes: on @everyone')
     print('Sent message to ' + member.name)
  
 
@@ -61,6 +61,4 @@ async def on_message(message):
         await client.send_message(message.channel,'https://cdn.discordapp.com/emojis/510523405628604428.png?v=1')
     if message.content == '!help':
         await client.send_message(message.channel,'https://cdn.discordapp.com/attachments/500792101194301453/554080105404825621/commandsfea.PNG')
-    if(message.content.includes('Dark is gay')) {
-        await client.send_message(message.channel.reply,'Dark is not gay')
 client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
