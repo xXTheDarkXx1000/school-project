@@ -62,5 +62,5 @@ async def on_message(message):
     if message.content == '!help':
         await client.send_message(message.channel,'https://cdn.discordapp.com/attachments/500792101194301453/554080105404825621/commandsfea.PNG')
     if(message.content.includes('Dark is gay')) {
-        message.reply('Dark is not gay');
+        await client.send_message(message.channel.reply,'Dark is not gay')
 client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
