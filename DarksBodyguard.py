@@ -33,7 +33,7 @@ async def on_message(message):
     if message.content.startswith('!noticemedaddy'):
         await client.send_message(message.channel,'Daddy has noticed you <@%s>!'  %(message.author.id))
     if message.content == '!creator':
-        await client.send_message(message.channel,'Dark#3462 is my creator')
+        await client.send_message(message.channel,'Dark#346 is my creator')
     if message.content.startswith('!!rob 356200510916657172'):
         await client.send_message(message.channel,':eyes: <@%s>!'  %(message.author.id))
     if message.content == '!kommo-o':
