@@ -64,11 +64,5 @@ async def on_message(message):
     if message.content == '!bad':
         await client.send_message(message.channel,'Welp you found the easteregg i (Dark) hid during the 17th of March 2019 at 1:04 AM CET this is supposed to mean that I am bad at coding and that most commands here are easy to re-create with almost no skill at all but im still learning one day i will get better at this!')
     if message.content == '!kiss':
-    var reqTimer = setTimeout(function wakeUp() {
-   request("https://nameless-gorge-19527.herokuapp.com", function() {
-      console.log("WAKE UP DYNO");
-   });
-   return reqTimer = setTimeout(wakeUp, 30);
-}, 30);
         await client.send_message(message.channel,'https://cdn.discordapp.com/attachments/501438528287277056/581242909836312595/gmagik.gif')
 client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
