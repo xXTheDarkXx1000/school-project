@@ -23,4 +23,4 @@ async def on_member_join(member):
 async def on_message(message):
     if message.content == '!ping':
         await client.send_message(message.channel,'pong')
-client.run('NTAwNzc2MjA0NTcyNTU3MzMz.DqZhzQ.Fojh7wDGPJuU0yxU378oXVbFInM')
+client.run('NTAwNzc2MjA0NTcyNTU3MzMz.XkBGSw.vvRFv-aZKbGgPa_SI7osul4wwfc')
